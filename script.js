@@ -58,3 +58,23 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+
+
+
+
+// script.js
+
+// script.js
+
+const cards = document.querySelectorAll('.card');
+
+cards.forEach((card) => {
+    card.addEventListener('mouseover', () => {
+        card.classList.add('hover');
+    });
+
+    card.addEventListener('mouseout', () => {
+        card.classList.remove('hover');
+    });
+});
